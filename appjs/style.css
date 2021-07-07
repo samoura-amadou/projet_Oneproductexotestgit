@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 150px;
+    background-color:darkcyan; 
+    margin-top: 10px;
+}
+
+
+header h1 {
+    color: chocolate;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-top: 35;
+    
+}
+header nav {
+    float: right; 
+}
+
+header  nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 32px;
+  
+}
+
+
+
+#orange {
+    color: cyan;
+    font-size: 50px;
+}
+
+
+.taille100{
+    width:100px;
+}
+.taille200{
+    width:200px;
+}
+.taille300{
+    width:300px;
+}
+
+.floatLeft{
+    float:left;
+}
+
+.clearBoth{
+    clear : both;
+}
+
+.panier:hover{
+    width:320px;
+    cursor: pointer;
+}
+
+footer{
+    height: 150px;
+    background-color: blueviolet;
+}
+
+footer h3 {
+    text-align: center;
+    color: burlywood;
+    padding-top: 20px;
+    font-style: italic;
+}
+.copyright {
+
+    color:chartreuse;
+    padding-top: 5px;
+}
